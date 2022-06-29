@@ -1,0 +1,95 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 5px;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px rgb(102, 102, 214) solid;
+}
+
+.wrapper{  
+    position: relative;
+    display: table;
+    border: 2px black solid;
+    border-radius: 5%;
+    width: 250px;
+    /* height: 200px; */
+    margin: 5% auto;
+    background-color: rgb(203, 254, 254);
+}
+
+.disp{
+    margin: 20px auto;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block{
+    text-align: center;
+}
+
+.btn{
+    font-size: 20px;
+    border: 1px solid rgb(177, 176, 176);
+    background:ivory;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    border: 1px black solid;
+    background: rgb(194, 193, 193);
+}
+
+.q{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.control{
+    margin: 0 auto;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.start, .stop{
+    font-size: 14px;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.name{
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    font-size: 30px;
+}
+
+.menu{
+    position: relative;
+    border: 1px black solid;
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.menu button{
+    font-size: 20px;
+    background-color: rgb(216, 216, 216);
+}
+
+.menu span{
+    border: 1px rgb(172, 172, 172) solid;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+
